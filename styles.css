@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* About Section */
+  #about {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-photo {
+    flex-shrink: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+    border: 3px solid #ddd;
+  }
+  
+  .profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about-text {
+    flex-grow: 1;
+  }
+  
+  .about-text h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
+  /* Skills and Projects */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .project {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Links */
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  #id{
+    text-align: center;
+  }
